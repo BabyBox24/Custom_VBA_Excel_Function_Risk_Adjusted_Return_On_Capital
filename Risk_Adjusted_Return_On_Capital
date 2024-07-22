@@ -1,0 +1,6 @@
+Function Risk_Adjusted_Return_On_Capital(Revenue, Expenses, ExpectedLoss, CapitalCharges, RiskFreeRate, Capital) As Double
+    'Declare variables as Double
+    
+    ' Calculate the Risk-Adjusted Return on Capital
+    Risk_Adjusted_Return_On_Capital = (Revenue - Expenses - ExpectedLoss + (CapitalCharges * RiskFreeRate)) / Capital
+End Function
